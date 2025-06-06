@@ -1,0 +1,25 @@
+# Virtual environments
+rasa_venv/
+fastapi_venv/
+
+# Sensitive data
+.env
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Rasa model files
+rasa/models/
+rasa/.rasa/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db

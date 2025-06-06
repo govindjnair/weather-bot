@@ -1,0 +1,132 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey there
+    - good morning
+    - hi there
+    - hey
+    - Hello!
+    - Hi!
+    - good afternoon
+    - greetings
+    - yo
+    - what's up
+    - hi bot
+    - hello bot
+    - hey bot
+    - hi there bot
+    - good evening
+    - hola
+    - salaam
+    - namaste
+    - hi
+    - hello
+    - hey there
+    - good morning
+    - hi there
+    - hey
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - later
+    - take care
+    - bye bye
+    - cya
+    - farewell
+    - good night
+    - see ya
+    - catch you later
+    - so long
+    - bye bot
+    - goodbye bot
+    - see you later
+    - adios
+    - tata
+    - bye!
+    - Goodbye!
+    - see you soon
+    - bye
+    - goodbye
+    - see you
+    - later
+    - take care
+- intent: ask_weather
+  examples: |
+    - What's the weather in [London](city)?
+    - Tell me the weather for [New York](city)
+    - How's the weather in [Tokyo](city)?
+    - What is the weather like in [Paris](city)?
+    - Can you tell me about the weather in [Sydney](city)?
+    - Weather in [Berlin](city) please
+    - What's the weather like in [Mumbai](city)?
+    - How is the weather in [Toronto](city)?
+    - Give me the weather for [Chicago](city)
+    - What's the weather today in [Dubai](city)?
+    - weather in [london](city)
+    - tell me the weather for [new york](city)
+    - how's the weather in [tokyo](city)?
+    - what is the weather like in [paris](city)?
+    - weather in [sydney](city)
+    - what's the weather like in [mumbai](city)?
+    - how is the weather in [toronto](city)?
+    - weather for [chicago](city)
+    - what's the weather in [dubai](city)?
+    - What's the weather in [San Francisco](city)?
+    - Tell me about the weather in [Los Angeles](city)
+    - How's the weather today in [Beijing](city)?
+    - weather in [san francisco](city)
+    - tell me the weather for [los angeles](city)
+    - how's the weather in [beijing](city)
+    - [London](city)
+    - [New York](city)
+    - [Tokyo](city)
+    - [Paris](city)
+    - [Sydney](city)
+    - [Berlin](city)
+    - [Mumbai](city)
+    - [Toronto](city)
+    - [Chicago](city)
+    - [Dubai](city)
+    - [San Francisco](city)
+    - [Los Angeles](city)
+    - [Beijing](city)
+    - [london](city)
+    - [new york](city)
+    - [tokyo](city)
+    - [paris](city)
+    - [pune](city)
+    - [sydney](city)
+    - [berlin](city)
+    - [mumbai](city)
+    - [toronto](city)
+    - [chicago](city)
+    - [dubai](city)
+    - [san francisco](city)
+    - [los angeles](city)
+    - [beijing](city)
+    - [hyderabad](city)
+    - [ahmedabad](city)
+    - [kolkata](city)
+    - [surat](city)
+    - [lucknow](city)
+    - [kanpur](city)
+    - [nagpur](city)
+    - [indore](city)
+    - [bhopal](city)
+    - [patna](city)
+    - [vadodara](city)
+    - [coimbatore](city)
+    - [visakhapatnam](city)
+    - [agra](city)
+    - [varanasi](city)
+    - [madurai](city)
+    - [jodhpur](city)
+    - [raipur](city)
+    - [kochi](city)
+    - [guwahati](city)

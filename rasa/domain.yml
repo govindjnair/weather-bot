@@ -1,0 +1,30 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_weather
+
+entities:
+  - city
+
+slots:
+  city:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: city
+
+responses:
+  utter_greet:
+    - text: "Hello! I can help you with the weather. Just tell me the city!"
+  utter_goodbye:
+    - text: "Goodbye! Stay dry!"
+  utter_ask_city:
+    - text: "Which city's weather would you like to know?"
+  utter_weather:
+    - text: "The weather in {city} is {condition} with a temperature of {temp}°C."
+
+actions:
+  - action_get_weather
