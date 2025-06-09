@@ -1,10 +1,8 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 import requests
-from dotenv import load_dotenv
 
 
-load_dotenv()
 
 app = FastAPI(title="Weather Bot API")
 
